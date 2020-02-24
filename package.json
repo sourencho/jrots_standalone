@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "hydra-synth": "1.0.27",
+    "p5": "^0.10.2"
+  },
+  "scripts": {
+    "jrots": "budo src/index.js:bundle.js --css src/style.css --open --ssl --live --port 8000-- -t [ babelify --presets [env] ]"
+  }
+}
